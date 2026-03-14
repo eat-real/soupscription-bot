@@ -10,8 +10,6 @@ from telegram.ext import (
     Application, CommandHandler, CallbackQueryHandler,
     MessageHandler, filters, ContextTypes, ConversationHandler
 )
-import gspread
-from google.oauth2.service_account import Credentials
 
 logging.basicConfig(
     format="%(asctime)s · %(name)s · %(levelname)s · %(message)s",
